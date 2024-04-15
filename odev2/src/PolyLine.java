@@ -30,7 +30,7 @@ public class PolyLine {
             stringBuilder.append(point.toString()).append(", ");
         }
         if (stringBuilder.length() > 1) {
-            stringBuilder.setLength(stringBuilder.length() - 2); // Remove trailing ", "
+            stringBuilder.setLength(stringBuilder.length() - 2);
         }
         stringBuilder.append("]");
         return stringBuilder.toString();
