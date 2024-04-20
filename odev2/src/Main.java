@@ -20,5 +20,9 @@ public class Main {
         System.out.println(poly1.length());
         System.out.println(poly1);
 
+        poly1.reverse();
+
+        System.out.println(poly1);
+
     }
 }
