@@ -10,19 +10,19 @@ public class Main {
         int maxCount = 0;
         int enCokTekrar = 0;
 
-        for(int i = 0 ; i < array.length; i++){
-        count = 0;
+        for (int k : array) {
+            count = 0;
 
-        for( int j = 0 ; j < array.length ; j++){
-            if( array[i] == array[j]){
-                count++;
+            for (int i : array) {
+                if (k == i) {
+                    count++;
+                }
             }
-        }
 
-        if(count > maxCount){
-            maxCount = count;
-            enCokTekrar = array[i];
-        }
+            if (count > maxCount) {
+                maxCount = count;
+                enCokTekrar = k;
+            }
 
 
         }
